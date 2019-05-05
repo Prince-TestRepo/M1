@@ -1,0 +1,93 @@
+Shortcut keys/ commands windows ---------------------------------------------------------- SKCW****
+
+SKCW**** Open My computer : shell:mycomputerfolder or Win+E
+Note that running command shell:mycomputerfolder will not start mycomputerfolder if it's already open. On the other hand pressing win+e will open mycomputerfolder as many times as you press it
+
+SKCW**** List all drives:
+wmic logicaldisk get deviceid, volumename, description
+wmic logicaldisk get name
+wmic logicaldisk get caption
+
+
+
+SKCW****
+SKCW****
+SKCW****
+SKCW****
+SKCW****
+
+Git Useful Commands ---------------------------------------------------------------- GUC****
+GUC****  git --version
+GUC****  git config --global user.name "Prince.Kumar"
+GUC****  git config --global user.email "Prince7.mail@gmail.com"
+GUC****  git config --list
+GUC****  git help <verb> OR git<verb> --help
+GUC****  git init	//Initialize a repository from existing code
+GUC****  touch .gitignore	//create a file .gitignore. Add files to .gitignore which you want to be ignored by git
+GUC****  git status	//status of git staging/commit etc
+GUC****  git add <filename>		//add particular file to staging area
+GUC****  git add -A		//add all files to staging area
+GUC****  git reset <filename>		//remove file from staging area to working area
+GUC****  git reset						//remove everything from staging area to working area
+GUC****  git commit -m "<message>"		//commits with a message
+GUC****  git log 					//Shows the commit made
+GUC****  git clone <url> <where to clone>	//clone a remote repo
+GUC****  git remote -v 		//shows information about remote repository
+GUC****  git branch -a 		//Shows information about branches remote as well as local
+GUC****  git clone -b <branch> <remote_repo>
+GUC****
+GUC****
+GUC****
+GUC****
+GUC****
+GUC****
+
+ ----------------------------------------------------------------
+******
+******
+******
+******
+******
+******
+ ----------------------------------------------------------------
+******
+******
+******
+******
+******
+******
+ ----------------------------------------------------------------
+******
+******
+******
+******
+******
+******
+ ----------------------------------------------------------------
+******
+******
+******
+******
+******
+******
+ ----------------------------------------------------------------
+******
+******
+******
+******
+******
+******
+ ----------------------------------------------------------------
+******
+******
+******
+******
+******
+******
+ ----------------------------------------------------------------
+******
+******
+******
+******
+******
+******
